@@ -6,22 +6,23 @@ body {
 }
 
 #field {
-  width: 600px;
-  height: 300px;
+  width: 800px;
+  height: 400px;
   background: green;
   margin: 20px auto;
   position: relative;
   border: 5px solid white;
 }
 
-#player {
+.player {
   width: 30px;
   height: 30px;
-  background: blue;
   position: absolute;
-  top: 130px;
-  left: 50px;
 }
+
+.qb { background: blue; }
+.wr { background: yellow; }
+.def { background: red; }
 
 #ball {
   width: 15px;
@@ -29,12 +30,9 @@ body {
   background: brown;
   border-radius: 50%;
   position: absolute;
-  top: 140px;
-  left: 80px;
 }
 
 button {
   padding: 10px;
   margin: 5px;
-  font-size: 16px;
 }
