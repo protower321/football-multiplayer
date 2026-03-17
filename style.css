@@ -1,0 +1,40 @@
+body {
+  text-align: center;
+  font-family: Arial;
+  background: #0b6623;
+  color: white;
+}
+
+#field {
+  width: 600px;
+  height: 300px;
+  background: green;
+  margin: 20px auto;
+  position: relative;
+  border: 5px solid white;
+}
+
+#player {
+  width: 30px;
+  height: 30px;
+  background: blue;
+  position: absolute;
+  top: 130px;
+  left: 50px;
+}
+
+#ball {
+  width: 15px;
+  height: 15px;
+  background: brown;
+  border-radius: 50%;
+  position: absolute;
+  top: 140px;
+  left: 80px;
+}
+
+button {
+  padding: 10px;
+  margin: 5px;
+  font-size: 16px;
+}
