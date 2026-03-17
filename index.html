@@ -8,16 +8,23 @@
 
 <h1>🏈 Football Game</h1>
 
+<div id="scoreboard">
+  Offense: <span id="offScore">0</span> |
+  Defense: <span id="defScore">0</span>
+</div>
+
 <div id="field">
-  <div id="player"></div>
+  <div id="qb" class="player qb"></div>
+  <div id="wr" class="player wr"></div>
+  <div id="def" class="player def"></div>
   <div id="ball"></div>
 </div>
 
 <div id="controls">
-  <button onclick="move('left')">⬅️</button>
-  <button onclick="move('right')">➡️</button>
-  <button onclick="move('up')">⬆️</button>
-  <button onclick="move('down')">⬇️</button>
+  <button onclick="moveQB('left')">⬅️</button>
+  <button onclick="moveQB('right')">➡️</button>
+  <button onclick="moveQB('up')">⬆️</button>
+  <button onclick="moveQB('down')">⬇️</button>
   <button onclick="throwBall()">Throw</button>
 </div>
 
